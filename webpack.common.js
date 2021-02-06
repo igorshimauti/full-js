@@ -15,7 +15,7 @@ module.exports = {
         pathToIndexHtml,
         pathToIndexFavicon
     ],
-    plugin: [
+    plugins: [
         new CleanWebpackPlugin()
     ],
     output: {
